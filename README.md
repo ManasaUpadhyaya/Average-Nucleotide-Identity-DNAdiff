@@ -1,8 +1,7 @@
 # Python-Script-to-compute-average-nucleotide-identity-between-input-FASTA-files-using-MUMerrs-DNAdiff
 
 Description:
-The script takes the specified number of genome FASTA files and computes the pairwise distance/average nucleotide identity(ANI) between the FASTA files using MUMerr's DNAdiff wrapper.
-The script also requires the user to specify the number of threads (-t) to be used to run the script and (-o) the name of the final output file.
+The script takes the specified number of genome FASTA files and computes the pairwise distance/average nucleotide identity(ANI) between the FASTA files using MUMerr's DNAdiff wrapper.The script also requires the user to specify the number of threads (-t) to be used to run the script and (-o) the name of the final output file. DNAdiff generates a number of ouput files. The file with the .report extesnion contains the ANI value on the 19th line.
 Input:
 The name of the required output file, the number of threads to be used and the input FASTA files.
 
